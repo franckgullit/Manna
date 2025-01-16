@@ -1,0 +1,81 @@
+<div<!DOCTYPE html>
+    <html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Manna's Braids</title>
+        <link href="style.css" rel=stylesheet>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ephesis&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Loop:ital@0;1&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ephesis&family=Klee+One:wght@600&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Loop:ital@0;1&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href='index.html'>
+                    <img src='logo.png' alt='Manna Logo'>
+                </a>
+                <div class='linkbuttons'>
+                    <a href='index.html'>Accueil</a>
+                    <a href='Portfolio.html'>Portfolio</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Braids by Manna</h1>
+                <p>
+                    Bienvenue ! Je suis Manna,passionnée et experte dans les tresses, les extensions de cils et le
+                    maquillage.<br>Je m'engage à vous aider à révéler toute votre beauté que ce soit pour des tresses
+                    élaborées, des cils <br>volumineux ou un maquillage impeccable, je mets un point d'honneur à offrir
+                    des
+                    services personnalisés <br>de haute qualité qui subliment votre style unique.Ensemble, créons un
+                    look
+                    qui vous correspond parfaitement !
+                </p>
+                <div class='rlimg'>
+                    <img src='robbie-lens.png' alt='Manna Img'>
+                </div>
+                <div>
+                    <a href='#contact_form' class='cta'>Contactez Moi</a>
+                </div>
+            </section>
+            <form id=contact_form action='contact_form.php' methode='POST' enctype='multipart/form-data'>
+                <div>
+                    <label for='name'>Prenom</label>
+                    <input name='prenom'>
+                </div>
+                <div>
+                    <label for='number'>Telephone</label>
+                    <input type='int' name='telephone' placeholder='Votre numero de telephone'>
+                </div>
+                <div>
+                    <label for='subject'>Sujet</label>
+                    <input name='subject' placeholder='ex.Prise de RDV'>
+                </div>
+                <div>
+                    <label for='message'>Message</label>
+                    <textarea placeholder='Ecrivez Votre Message Ici' name='message'></textarea>
+                </div>
+                <div id="error-message" style="color: red; display: none;"></div>
+                <button type='submit'>Envoyez</button>
+            </form>
+        </main>
+        <footer>
+            <nav>
+                <a href="index.html"><img src="logo.png" alt="manna logo"> </a>
+                <a href="https://www.twitter.com/" target="_blank">
+                    <img src="twitter.png" alt="twitter logo"> </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="Instagram.png" alt="instagram logo"> </a>
+            </nav>
+        </footer>
+    </body>
+
+    </html>

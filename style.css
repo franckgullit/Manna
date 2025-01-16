@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "manrope", sans serif;
+    color: #242424;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: black;
+    font-family: "Ephesis", serif;
+    display: flex;
+    justify-content: flex-start;
+}
+
+p {
+    font-size:2em;
+    font-family: "Ephesis", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h2 {
+    font-family: "Manrope", sans serif;
+    background-color: #1F2039;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.cta {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-family: "Ephesis", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+header,
+footer {
+    padding: 20px 50px 20px 50px;
+}
+
+section {
+    padding: 80px;
+    background-color: aqua;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+.linkbuttons {
+    display: flex;
+    align-items: stretch;
+}
+
+.rlimg {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#contact_form {
+    padding: 80px;
+}
