@@ -2,6 +2,18 @@
     margin: 0;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkbuttons {
+    display: flex;
+    gap:0.5em;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -23,13 +35,6 @@ p {
     font-family: "Ephesis", serif;
     font-weight: 400;
     font-style: normal;
-}
-
-nav {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
 h2 {
@@ -59,8 +64,10 @@ footer {
     padding: 20px 50px 20px 50px;
 }
 
+
+
 section {
-    padding: 80px;
+    padding: 70px;
     background-color: aqua;
 }
 
@@ -69,16 +76,11 @@ main {
     margin: auto;
 }
 
-.linkbuttons {
-    display: flex;
-    align-items: stretch;
-}
-
 .rlimg {
     display: flex;
     justify-content: flex-end;
 }
 
 #contact_form {
-    padding: 80px;
+    padding: 70px;
 }
