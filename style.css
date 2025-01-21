@@ -1,86 +1,94 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.linkbuttons {
-    display: flex;
-    gap:0.5em;
+body {
+    font-size: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 a {
-    color: black;
-    text-decoration: none;
-    font-size: 1em;
-    font-family: "manrope", sans serif;
     color: #242424;
+    text-decoration: none;
 }
+
 
 h1 {
     font-size: 3.5em;
     color: black;
     font-family: "Ephesis", serif;
-    display: flex;
-    justify-content: flex-start;
-}
-
-p {
-    font-size:2em;
-    font-family: "Ephesis", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h2 {
-    font-family: "Manrope", sans serif;
-    background-color: #1F2039;
-    color: white;
-    margin-bottom: 50px;
-    margin-top: 20px;
-}
-
-.cta {
-    background-color: black;
-    color: white;
-    border-radius: 20px;
-    font-family: "Ephesis", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 a:hover {
     text-decoration: underline;
-    opacity: 0.5;
 }
 
-header,
-footer {
-    padding: 20px 50px 20px 50px;
-}
-
-
-
-section {
-    padding: 70px;
-    background-color: aqua;
-}
-
-main {
-    width: 100%;
-    margin: auto;
-}
-
-.rlimg {
+.nav_bar {
+    background-color: white;
+    padding: 20px 50px 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.manna_logo {
+    width:10%;
+    border-radius: 25px;
+}
+
+.link_buttons {
+    display:flex;
+    flex-direction: row;
+    gap:1em;
+}
+
+.cta_button {
+    background: linear-gradient(#8E86B5, #ACAEED);
+    border-radius: 50px;
+    margin-top: 15px;
+    height: 25px;
+}
+
+.cta_button:hover{
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.main_page_portrait {
+    width:20%;
 }
 
 #contact_form {
-    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 43px;
+}
+
+label {
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+
+.submit_button {
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    height: 35px;
+    width: 161px;
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 31px;
 }
