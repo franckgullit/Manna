@@ -5,7 +5,7 @@
 
 body {
     font-size: 1em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -34,61 +34,128 @@ a:hover {
 }
 
 .manna_logo {
-    width:10%;
+    width: 6em;
     border-radius: 25px;
 }
 
 .link_buttons {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    gap:1em;
+    gap: 1em;
 }
 
-.cta_button {
-    background: linear-gradient(#8E86B5, #ACAEED);
-    border-radius: 50px;
-    margin-top: 15px;
-    height: 25px;
+.manna_paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 50px 20px;
 }
 
-.cta_button:hover{
+.main_page_portrait {
+    width: 15rem;
+    border-radius: 120px;
+}
+
+.cta button {
+    background-color: pink;
+    border-radius: 20px;
+    margin-top: 33px;
+    width: 8em;
+    height: 33px;
+    font-size: larger;
+}
+
+.cta_button:hover {
     text-decoration: none;
     transform: scale(1.05);
 }
 
-.main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-}
-
-.main_page_portrait {
-    width:20%;
-}
-
-#contact_form {
+.contact_form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: left;
     gap: 43px;
+    background-color: pink;
+    padding: 20px 50px 20px;
 }
 
-label {
-    margin-left: 4px;
-    margin-bottom: 10px;
+form{
+    margin-top: 0px;
+}
+
+#contact_form label {
+    margin: 2em 0 0.5em 0;
+    display: flex;
+}
+
+#contact_form input {
+	width: 15em;
+	height: 40px;
+	font-size: 1.2em;
+	border: none;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+	padding: 0 10px;
+    border-radius: 15px;
+}
+
+textarea{
+    width: 33em;
+    height: 15em;
+    border:none;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+	padding: 0 10px;
+    border-radius:15px;
+}
+
+textarea::placeholder{
+    font-style: italic;
+}
+
+input::placeholder{
+    font-size: medium;
+    font-style: italic;
 }
 
 .submit_button {
     background-color: black;
-    color:white;
+    color: white;
     border-radius: 15px;
     height: 35px;
-    width: 161px;
-    margin-top: 42px;
+    width: 15em;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 31px;
+    font-size: 1.2em;
+    font-style:italic;
+}
+
+.submit_button:hover {
+    transform: scale(1.05);
+}
+
+.page_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px;
+    background-color: #f8f8f8;
+    color: #555;
+    text-align: center;
+}
+
+
+.logoreseaux img {
+    width:2.5em; 
+}
+
+.footer_logo .manna_logo{
+    width:4em;
+}
+
+.footer_text {
+    flex: 1; 
+    text-align: center;
+    font-size: 12px;
 }

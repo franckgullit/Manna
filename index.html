@@ -28,7 +28,7 @@
     </header>
     <main class='manna_paragraph'>
         <div class='manna_txt'>
-            <h1> Braids by<br>RENATE</h1>
+            <h1> Braids by RENATE</h1>
             <p class='manna_intro'>
                 Bienvenue ! Je suis Manna,passionnée et experte dans les tresses, les extensions de cils et le
                 maquillage.<br>Je m'engage à vous aider à révéler toute votre beauté que ce soit pour des tresses
@@ -39,7 +39,9 @@
                 qui vous correspond parfaitement !
             </p>
             <div class='cta'>
-                <a href='#contact_form' class='cta_button'>Contactez Moi</a>
+                <a href='#contact_form'>
+                    <button class='cta_button'>Contactez Moi</button>
+                </a>
             </div>
         </div>
 
@@ -52,7 +54,7 @@
         <form id='contact_form' action='contact_form.php' method='POST' enctype='multipart/form-data'>
             <div class='prenom'>
                 <label for='name'>Prenom</label>
-                <input name='prenom'>
+                <input name='prenom' placeholder='prenom'>
             </div>
             <div class='phone_number'>
                 <label for='number'>Telephone</label>
@@ -70,16 +72,21 @@
             <button class='submit_button' type='submit'>Envoyez</button>
         </form>
     </section>
-
-    <footer class='page_footer'>
-        <div class='footer_logo'>
-            <a href='index.html'>
-                <img src='manna_logo.webp' alt='manna_logo' class='manna_logo'>
+    <footer class="page_footer">
+        <div class="footer_logo">
+            <a href="index.html">
+                <img src="manna_logo.webp" alt="manna_logo" class="manna_logo">
             </a>
         </div>
+
+        <div class="footer_text">
+            <p>&copy; 2025 LALA'S WEB. All rights reserved.</p>
+            <p>Designed and Developed by <strong>LALA'S WEB</strong></p>
+        </div>
+
         <div class="logoreseaux">
-            <a href="https://wwww.instagram.com" target="_blank" class='instagram_logo'>
-                <img src='instagram.webp' alt="instagram" id="insta">
+            <a href="https://www.instagram.com" target="_blank" class="instagram_logo">
+                <img src="instagram.webp" alt="instagram" id="insta">
             </a>
         </div>
     </footer>
